@@ -149,7 +149,7 @@ namespace TestService
 
 Всё, теперь сервис доступен через Apache. Если открыть браузером соответствующий url (http://localhost/TestService) то ASP.NET рисует красивую страничку с описанием сервиса:
 
-[[Изображение:TestService.png|frame|center]]
+[http://testservice.googlecode.com/svn/wiki/TestService.png]
 
 На этой страничке есть ссылки, соответствующие методам сервиса, на них автоматически формируются формы, которыми можно задать параметры сервиса и проверить результат.
 
