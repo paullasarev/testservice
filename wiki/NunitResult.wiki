@@ -1,0 +1,11 @@
+"#summary nunit testing results " 
+<p>
+04.01.2009 
+<p>
+"{{{" 
+***** TestService.Tests.AuthTests.Login
+
+Tests run: 1, Failures: 0, Not run: 0, Time: 0.594 seconds
+
+
+"}}}" 
