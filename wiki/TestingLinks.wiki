@@ -8,6 +8,7 @@
  * [http://www.agileprogrammer.com/geeknoise/articles/Test_Driven_Development_and_Web_Services.aspx Test-Driven Development and Web Services]
  * [http://blogs.gotdotnet.ru/personal/shapovalov/CommentView.aspx?guid=76820c1e-e533-45e1-a00e-8d42eac65f35 Доступ к сессии из юнит тестов в ASP.NET]
  * [http://sm-art.biz/Ivonna.aspx Ivonna is an Asp.Net testing tool that allows writing unit tests for your WebForms applications]
+ * [http://haacked.com/archive/2007/06/19/unit-tests-web-code-without-a-web-server-using-httpsimulator.aspx Unit Test Web Code Without A Web Server Using HttpSimulator]
 
 = Web-service functional/integration testing=
  * [http://blogs.dovetailsoftware.com/blogs/kmiller/archive/2007/11/07/unit-testing-a-web-service.aspx Unit Testing a Web Service ]
