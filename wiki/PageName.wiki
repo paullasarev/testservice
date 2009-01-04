@@ -13,5 +13,5 @@
  * [http://www.koders.com/csharp/fidD413C8AD118C221918653F02B78C85894EB55263.aspx?s=cdef%3Asmtp+server TestWebServer.cs]
 
 = Database unit testing = 
- * [http://code.google.com/migratordotnet migratordotnet]
+ * [http://code.google.com/p/migratordotnet/ migratordotnet]
  * [http://ayende.com/Blog/archive/2007/02/25/Unit-Testing-Database-Embedded-vs.-In-Memory.aspx Ayende @ Rahien. Unit Testing Database: Embedded vs. In Memory..]
