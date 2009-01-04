@@ -6,7 +6,7 @@
  * [http://startbigthinksmall.wordpress.com/2008/05/19/how-make-code-that-uses-my-sessionvariable-testable/ How to make ASP.net session state testable]
  * [http://www.dev102.com/2008/05/07/why-should-you-wrap-your-aspnet-session-object/ Why Should You Wrap Your ASP.NET Session Object]
  * [http://www.agileprogrammer.com/geeknoise/articles/Test_Driven_Development_and_Web_Services.aspx Test-Driven Development and Web Services]
- * [http://blogs.gotdotnet.ru/personal/shapovalov/ Доступ к сессии из юнит тестов в ASP.NET]
+ * [http://blogs.gotdotnet.ru/personal/shapovalov/CommentView.aspx?guid=76820c1e-e533-45e1-a00e-8d42eac65f35#commentstart Доступ к сессии из юнит тестов в ASP.NET]
 
 = Web-service functional/integration testing=
  * [http://blogs.dovetailsoftware.com/blogs/kmiller/archive/2007/11/07/unit-testing-a-web-service.aspx Unit Testing a Web Service ]
