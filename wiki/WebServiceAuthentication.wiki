@@ -3,3 +3,4 @@
  * [http://www.vbnet.ru/articles/showarticle.aspx?id=208 Как работают Web сервисы ASP.NET]
  * [http://www.codeproject.com/KB/cpp/authforwebservices.aspx Authentication for Web Services (using SOAP headers)]
  * [http://aspalliance.com/805 Soap Headers Authentication in Web Services]
+ * [http://www.codeguru.com/columns/experts/article.php/c5479 Build Secure Web Services With SOAP Headers and Extensions]
