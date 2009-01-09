@@ -1,1 +1,1 @@
-<%@ WebService Language="C#"  Class="TestService.Soap,Soap" %>
+<%@ WebService Language="C#"  Class="TestService.Soap,TestService" %>
