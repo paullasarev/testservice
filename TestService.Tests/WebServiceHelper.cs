@@ -31,21 +31,29 @@ namespace TestService.Tests
         
     }
 
-    public class TestStoreXmlAdapter : ITestStoreAdapter
+    public class TestStoreFakeAdapter : ITestStoreAdapter
     {
+        private readonly TestStore ds;
         private readonly string filename;
 
-        public TestStoreXmlAdapter(string filename)
+        public TestStoreFakeAdapter(string filename)
         {
             this.filename = filename;
-        }
-
-        public void Fill(TestStore ds)
-        {
+            ds = new TestStore();
             ds.ReadXml(filename, XmlReadMode.IgnoreSchema);
         }
 
-        public void Update(TestStore ds)
+        public TestStoreFakeAdapter(TestStore ds)
+        {
+            this.ds = ds;
+        }
+
+        public void Fill(TestStore tds)
+        {
+            tds.Merge(ds);
+        }
+
+        public void Update(TestStore tds)
         {
             throw new System.NotImplementedException();
         }
