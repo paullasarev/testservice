@@ -6,6 +6,7 @@ namespace TestService.Tests
 {
     public class WebServiceHelper
     {
+        // come from http://blogs.gotdotnet.ru/personal/shapovalov/
         public static void CreateHttpSessionTest()
         {
             HttpContext.Current = new HttpContext(new HttpRequest(string.Empty,

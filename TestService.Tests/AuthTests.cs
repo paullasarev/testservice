@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Web;
-using System.Web.SessionState;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace TestService.Tests
 {
