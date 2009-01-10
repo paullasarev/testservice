@@ -1,0 +1,15 @@
+#summary nunit testing results 
+<p>
+10.01.2009 
+<p>
+{{{ 
+***** TestService.Tests.AuthTests.Login
+***** TestService.Tests.TestStoreTests.CreateTest1
+***** TestService.Tests.TestStoreTests.TestStoreXmlAdapter
+
+Tests run: 2, Failures: 0, Not run: 1, Time: 2.094 seconds
+
+Tests not run:
+1) TestService.Tests.TestStoreTests.CreateTest1 : 
+
+}}} 
