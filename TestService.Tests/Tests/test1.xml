@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<TestStore xmlns="http://tempuri.org/TestStore.xsd">
+  <Test>
+    <ID>192c20fd-4421-4803-8969-ad2ffd1da8e1</ID>
+    <Name>test1</Name>
+  </Test>
+  <TestRevisions>
+    <TestID>192c20fd-4421-4803-8969-ad2ffd1da8e1</TestID>
+    <Revision>2009-01-10T17:22:41.71875+04:00</Revision>
+    <TestData>test data</TestData>
+    <TestDriver>none</TestDriver>
+  </TestRevisions>
+</TestStore>

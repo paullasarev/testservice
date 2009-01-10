@@ -1,3 +1,5 @@
+using System;
+using System.Data;
 using System.IO;
 using System.Web;
 using System.Web.SessionState;
@@ -27,5 +29,25 @@ namespace TestService.Tests
                                                              iSessSteate);
         }
         
+    }
+
+    public class TestStoreXmlAdapter : ITestStoreAdapter
+    {
+        private readonly string filename;
+
+        public TestStoreXmlAdapter(string filename)
+        {
+            this.filename = filename;
+        }
+
+        public void Fill(TestStore ds)
+        {
+            ds.ReadXml(filename, XmlReadMode.IgnoreSchema);
+        }
+
+        public void Update(TestStore ds)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
