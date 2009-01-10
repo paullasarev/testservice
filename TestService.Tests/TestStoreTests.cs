@@ -51,5 +51,22 @@ namespace TestService.Tests
             Assert.AreEqual(1, ds.Test.Rows.Count);
         }
 
+        [Test]
+        public void SoapAdapter()
+        {
+            TestStore ds = CreateTest1DS();
+            ITestStoreAdapter adapter = new TestStoreFakeAdapter(ds);
+            Guid id = ds.Test[0].ID;
+            string name = ds.Test[0].Name;
+
+            Soap service = new Soap(adapter);
+            bool result = service.Login("user1", "pass1");
+            Assert.IsTrue(result);
+            Assert.AreEqual("user1", service.UserName);
+
+            string testName = service.GetTestName(id);
+
+        }
+
     }
 }
