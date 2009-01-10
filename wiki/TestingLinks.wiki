@@ -20,10 +20,10 @@
 = Database unit testing = 
  * [http://code.google.com/p/migratordotnet/ migratordotnet]
  * [http://ayende.com/Blog/archive/2007/02/25/Unit-Testing-Database-Embedded-vs.-In-Memory.aspx Ayende @ Rahien. Unit Testing Database: Embedded vs. In Memory..]
- * NdbUnit (dead?)
+ * ndbunit (dead?)
   * http://code.google.com/p/ndbunit/
   * [http://www.codeproject.com/KB/database/UnitTestDbAppsWithNDbUnit.aspx Approach to unit testing of .NET database applications with NDbUnit and XPath queries]
- * XtUnit
+ * xtunit
   * http://www.nunit.org/index.php?p=xtunit
   * http://weblogs.asp.net/rosherove/pages/tools-and-frameworks-by-roy-osherove.aspx
  * [http://www.mbunit.com/ mbunit]
@@ -31,4 +31,4 @@
 
 = Unit-test frameworks =
  * http://www.artofunittesting.com/Chapters/Tools_and_frameworks
-  *
+ 
