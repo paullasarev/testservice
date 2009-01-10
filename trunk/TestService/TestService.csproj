@@ -37,7 +37,26 @@
       <DependentUpon>Default.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="TestStore.cs">
+      <DependentUpon>TestStore.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TestStore.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestStore.xsd</DependentUpon>
+    </Compile>
     <None Include="Default.asmx" />
+    <None Include="TestStore.xsc">
+      <DependentUpon>TestStore.xsd</DependentUpon>
+    </None>
+    <None Include="TestStore.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TestStore.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TestStore.xss">
+      <DependentUpon>TestStore.xsd</DependentUpon>
+    </None>
     <None Include="Web.config" />
   </ItemGroup>
 </Project>

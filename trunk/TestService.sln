@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebServer", "TestWebSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService.Tests", "TestService.Tests\TestService.Tests.csproj", "{6B61A5FA-E605-4F53-BE3D-695296948AF0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{F922E871-F692-4C96-A901-853E95F35316}"
+	ProjectSection(SolutionItems) = preProject
+		lib\migratordotnet\Migrator.Framework.dll = lib\migratordotnet\Migrator.Framework.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

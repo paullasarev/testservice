@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestStore" targetNamespace="http://tempuri.org/TestStore.xsd" xmlns:mstns="http://tempuri.org/TestStore.xsd" xmlns="http://tempuri.org/TestStore.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TestStore" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TestStore" msprop:Generator_DataSetName="TestStore">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Test" msprop:Generator_UserTableName="Test" msprop:Generator_RowDeletedName="TestRowDeleted" msprop:Generator_TableClassName="TestDataTable" msprop:Generator_RowChangedName="TestRowChanged" msprop:Generator_RowClassName="TestRow" msprop:Generator_RowChangingName="TestRowChanging" msprop:Generator_RowEvArgName="TestRowChangeEvent" msprop:Generator_RowEvHandlerName="TestRowChangeEventHandler" msprop:Generator_TablePropName="Test" msprop:Generator_TableVarName="tableTest" msprop:Generator_RowDeletingName="TestRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:string" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TestRevisions" msprop:Generator_UserTableName="TestRevisions" msprop:Generator_RowDeletedName="TestRevisionsRowDeleted" msprop:Generator_TableClassName="TestRevisionsDataTable" msprop:Generator_RowChangedName="TestRevisionsRowChanged" msprop:Generator_RowClassName="TestRevisionsRow" msprop:Generator_RowChangingName="TestRevisionsRowChanging" msprop:Generator_RowEvArgName="TestRevisionsRowChangeEvent" msprop:Generator_RowEvHandlerName="TestRevisionsRowChangeEventHandler" msprop:Generator_TablePropName="TestRevisions" msprop:Generator_TableVarName="tableTestRevisions" msprop:Generator_RowDeletingName="TestRevisionsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TestID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="TestID" msprop:Generator_ColumnPropNameInRow="TestID" msprop:Generator_ColumnVarNameInTable="columnTestID" msprop:Generator_ColumnPropNameInTable="TestIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Revision" msprop:Generator_UserColumnName="Revision" msprop:Generator_ColumnPropNameInRow="Revision" msprop:Generator_ColumnVarNameInTable="columnRevision" msprop:Generator_ColumnPropNameInTable="RevisionColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TestData" msprop:Generator_UserColumnName="TestData" msprop:Generator_ColumnPropNameInRow="TestData" msprop:Generator_ColumnVarNameInTable="columnTestData" msprop:Generator_ColumnPropNameInTable="TestDataColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TestDriver" msprop:Generator_UserColumnName="TestDriver" msprop:Generator_ColumnPropNameInRow="TestDriver" msprop:Generator_ColumnVarNameInTable="columnTestDriver" msprop:Generator_ColumnPropNameInTable="TestDriverColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Test" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Test_Revision" msdata:parent="Test" msdata:child="TestRevisions" msdata:parentkey="ID" msdata:childkey="TestID" msprop:Generator_UserRelationName="Test_Revision" msprop:Generator_RelationVarName="relationTest_Revision" msprop:Generator_UserChildTable="TestRevisions" msprop:Generator_UserParentTable="Test" msprop:Generator_ParentPropName="TestRow" msprop:Generator_ChildPropName="GetTestRevisionsRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
